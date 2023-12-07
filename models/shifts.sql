@@ -1,12 +1,12 @@
 WITH shifts AS (SELECT employee_id,
                        shift_date,
                        shift
-                FROM q.stg_shifts
+                FROM tbd.stg_shifts
                 ),
      shift_details AS (SELECT shift AS shift_name,
                               start_time,
                               end_time
-                       FROM q.shift_hours
+                       FROM tbd.shift_hours
                        )
 
 SELECT s.employee_id AS employee_id,

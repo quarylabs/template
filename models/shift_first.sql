@@ -4,7 +4,7 @@ WITH
       employee_id,
       MIN(shift_start) AS shift_start
     FROM
-      q.shifts
+      tbd.shifts
     GROUP BY
       employee_id
   )
@@ -13,7 +13,7 @@ SELECT
   x.shift_start AS shift_start,
   x.shift_end AS shift_end
 FROM
-  q.shifts x
+  tbd.shifts x
   INNER JOIN min_shifts y ON y.employee_id = x.employee_id
   AND y.shift_start = x.shift_start
 GROUP BY

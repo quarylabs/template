@@ -5,4 +5,4 @@ select
   longitude,
   manager_id
 from
-  q.raw_shop_locations
+  tbd.raw_shop_locations

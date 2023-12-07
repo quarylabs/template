@@ -3,4 +3,4 @@ select
   first_name,
   last_name
 from
-  q.raw_employees
+  tbd.raw_employees

@@ -4,4 +4,4 @@ select
   date as shift_date,
   shift
 from
-  q.raw_shifts
+  tbd.raw_shifts
