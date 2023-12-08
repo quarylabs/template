@@ -1,6 +1,6 @@
-select
-  id as employee_id,
-  first_name,
-  last_name
-from
-  q.raw_employees
+SELECT
+    id AS employee_id,
+    first_name,
+    last_name
+FROM
+    q.raw_employees

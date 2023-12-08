@@ -1,7 +1,8 @@
 {
   "recommendations": [
     "inferrinizzard.prettier-sql-vscode",
-    "ToBeDeterminedHq.tbd-vscode-web",
-    "redhat.vscode-yaml"
+    "quary.quary-extension",
+    "redhat.vscode-yaml",
+    "esbenp.prettier-vscode"
   ]
 }
