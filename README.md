@@ -8,8 +8,7 @@ The project illustrates some simple data of a shop with a few stores and with in
 
 The example is based upon the following data model, where the green tables are seeds and the red tables are models.
 
-![project_structure](https://github.com/quarylabs/template/assets/132601011/3b030a37-ff78-42c1-b9ea-747aea3cdd49)
-
+![Model](./images/model.drawio.svg)
 
 ## Visual Studio Code Run Through
 
